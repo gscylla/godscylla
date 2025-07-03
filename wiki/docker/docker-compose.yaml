@@ -1,6 +1,6 @@
 services:
   hajimi-app:
-    image: beijixingxing/hajimi:latest
+    image: ghcr.io/wyeeeee/hajimi:latest
     container_name: hajimi-app  # 固定容器名方便监控
     labels:
       - "com.centurylinklabs.watchtower.enable=true"  # 启用自动更新
